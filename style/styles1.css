@@ -1,0 +1,237 @@
+/* greek-ext */
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/cardo/v13/wlp_gwjKBV1pqhv03IEp2A.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/cardo/v13/wlp_gwjKBV1pqhv73IEp2A.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/cardo/v13/wlp_gwjKBV1pqhv23IEp2A.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/cardo/v13/wlp_gwjKBV1pqhv43IE.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "Joti One";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/jotione/v9/Z9XVDmdJQAmWm9TwabTX6Oy0lw.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: "Joti One";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/jotione/v9/Z9XVDmdJQAmWm9TwabTZ6Ow.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  background-color: #fcf0ba;
+  color: #333;
+  font-family: Cardo, Garamond, Georgia, Cambria, Verdana, sans-serif;
+}
+
+h1.page-title {
+  color: #fff;
+  font-family: Joti One, Garamond, Georgia, Cambria, Verdana, sans-serif;
+  margin: 0px;
+}
+
+.post {
+  display: inline-block;
+  padding: 2rem;
+  width: 50rem;
+  max-width: 80%;
+  background-color: white;
+  border: 1px solid #450711;
+}
+
+.post__image {
+  margin: auto;
+  margin-bottom: 1rem;
+  max-width: 540px;
+  /* you can use % */
+}
+
+.post__image img {
+  width: 100%;
+}
+
+.post__image figcaption {
+  text-align: right;
+  font-size: x-small;
+  color: grey;
+}
+
+.post__header {
+  margin-bottom: 1rem;
+}
+
+.post__header__title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #450711;
+}
+
+.post__header__created-at {
+  color: #730c1c;
+}
+
+.post__body {
+  color: #450711;
+}
+
+.post__description {
+  color: #450711;
+}
+
+.comments__container {
+  margin-top: 2rem;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.comments__title {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+  font-weight: 600;
+  background-color: #ccc;
+}
+
+.comments__comment {
+  margin: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.banner {
+  background-color: #600;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  z-index: -1;
+}
+
+.creator-footer {
+  margin: 1rem 0rem 1rem;
+}
+
+.sidenote {
+  font-size: 1.1em;
+  font-family: Cardo, Garamond, Georgia, Cambria, Verdana, sans-serif;
+  line-height: 1.4em;
+}
+
+.searchform {
+  background-color: #ffd;
+  padding: 20px;
+}
+
+.listdate {
+  min-width: 100px;
+}
+
+.listCategory {
+  color: #b90;
+}
+
+.listTopic {
+  color: #9b0;
+}
+
+.attachment {
+  font-size: 13px;
+  background-color: #ffd;
+  margin-left: 10px;
+}
+
+.story {
+  font-style: italic;
+}
+
+.fbLink {
+  font-size: smaller;
+}
+
+.from {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.fromname {
+  font-weight: bold;
+  color: #558;
+}
+
+.comment {
+  padding-bottom: 5px;
+  margin-top: 5px;
+  background-color: #fff;
+}
+
+#catform {
+  border: 3px solid #008;
+}
+
+.floating-box {
+  vertical-align: top;
+  display: inline-block;
+  width: 650px;
+  margin-left: 10px;
+  border: 3px solid #73ad21;
+}
+
+.formtabletitle {
+  text-align: right;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body .page {
+  text-align: center;
+}

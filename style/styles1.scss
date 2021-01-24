@@ -1,0 +1,173 @@
+@import "fonts";
+
+$text-color: #450711;
+$bg-color: #fcf0ba;
+
+body {
+	background-color: $bg-color;
+	color: #333;
+	font-family: Cardo, Garamond, Georgia, Cambria, Verdana, sans-serif;
+}
+
+h1.page-title {
+	color: #fff;
+	font-family: Joti One, Garamond, Georgia, Cambria, Verdana, sans-serif;
+	margin: 0px;
+}
+
+.post {
+	display: inline-block;
+	padding: 2rem;
+	width: 50rem;
+	max-width: 80%;
+	background-color: white;
+	border: 1px solid $text-color;
+
+	&__image {
+		margin: auto;
+		margin-bottom: 1rem;
+		max-width: 540px; /* you can use % */
+
+		img {
+			width: 100%;
+		}
+
+		figcaption {
+			text-align: right;
+			font-size: x-small;
+			color: grey;
+		}
+	}
+
+	&__header {
+		margin-bottom: 1rem;
+
+		&__title {
+			font-weight: bold;
+			font-size: 1.5rem;
+			color: $text-color;
+		}
+
+		&__created-at {
+			color: lighten($text-color, 10%);
+		}
+	}
+
+	&__body {
+		color: $text-color;
+	}
+
+	&__description {
+		color: $text-color;
+	}
+}
+
+.comments {
+	&__container {
+		margin-top: 2rem;
+		border: 1px solid #ddd;
+		background-color: #fff;
+	}
+
+	&__title {
+		border-bottom: 1px solid #ddd;
+		padding: 1rem;
+		font-weight: 600;
+		background-color: #ccc;
+	}
+
+	&__comment {
+		margin: 1rem;
+		margin-bottom: 1rem;
+		padding-bottom: 1rem;
+		border-bottom: 1px solid #ccc;
+	}
+}
+
+.banner {
+	background-color: #600;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	z-index: -1;
+}
+
+.creator-footer {
+	margin: 1rem 0rem 1rem;
+}
+
+.sidenote {
+	font-size: 1.1em;
+	font-family: Cardo, Garamond, Georgia, Cambria, Verdana, sans-serif;
+	line-height: 1.4em;
+}
+
+.searchform {
+	background-color: #ffd;
+	padding: 20px;
+}
+.listdate {
+	min-width: 100px;
+}
+.listCategory {
+	color: #b90;
+}
+.listTopic {
+	color: #9b0;
+}
+
+.attachment {
+	font-size: 13px;
+	background-color: #ffd;
+	margin-left: 10px;
+}
+.story {
+	font-style: italic;
+}
+
+.fbLink {
+	font-size: smaller;
+}
+
+.from {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #aaa;
+}
+.fromname {
+	font-weight: bold;
+	color: #558;
+}
+.comment {
+	padding-bottom: 5px;
+	margin-top: 5px;
+	background-color: #fff;
+}
+#catform {
+	border: 3px solid #008;
+}
+.floating-box {
+	vertical-align: top;
+	display: inline-block;
+	width: 650px;
+	margin-left: 10px;
+	border: 3px solid #73ad21;
+}
+.formtabletitle {
+	text-align: right;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h1 {
+		text-align: center;
+	}
+
+	.page {
+		text-align: center;
+	}
+}
