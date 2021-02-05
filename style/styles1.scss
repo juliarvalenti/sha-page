@@ -2,15 +2,16 @@
 
 $text-color: #450711;
 $bg-color: #fcf0ba;
+$ivory-white: #fcf6d9;
 
 body {
 	background-color: $bg-color;
-	color: #333;
+	color: $text-color;
 	font-family: Cardo, Garamond, Georgia, Cambria, Verdana, sans-serif;
 }
 
 h1.page-title {
-	color: #fff;
+	color: $ivory-white;
 	font-family: Joti One, Garamond, Georgia, Cambria, Verdana, sans-serif;
 	margin: 0px;
 }
@@ -20,7 +21,7 @@ h1.page-title {
 	padding: 2rem;
 	width: 50rem;
 	max-width: 80%;
-	background-color: #fcf6d9;
+	background-color: $ivory-white;
 	border: 1px solid $text-color;
 
 	&__image {
@@ -35,7 +36,7 @@ h1.page-title {
 		figcaption {
 			text-align: right;
 			font-size: x-small;
-			color: grey;
+			color: $text-color;
 		}
 	}
 
@@ -65,15 +66,15 @@ h1.page-title {
 .comments {
 	&__container {
 		margin-top: 2rem;
-		border: 1px solid #ddd;
-		background-color: #fff;
+		border: 1px solid #333;
+		background-color: scale-color($ivory-white, $lightness: +45%);
 	}
 
 	&__title {
-		border-bottom: 1px solid #ddd;
+		border-bottom: 1px solid #bbb;
 		padding: 1rem;
 		font-weight: 600;
-		background-color: #ccc;
+		background-color: #eae4cb;
 	}
 
 	&__comment {

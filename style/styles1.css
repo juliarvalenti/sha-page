@@ -54,12 +54,12 @@
 
 body {
   background-color: #fcf0ba;
-  color: #333;
+  color: #450711;
   font-family: Cardo, Garamond, Georgia, Cambria, Verdana, sans-serif;
 }
 
 h1.page-title {
-  color: #fff;
+  color: #fcf6d9;
   font-family: Joti One, Garamond, Georgia, Cambria, Verdana, sans-serif;
   margin: 0px;
 }
@@ -87,7 +87,7 @@ h1.page-title {
 .post__image figcaption {
   text-align: right;
   font-size: x-small;
-  color: grey;
+  color: #450711;
 }
 
 .post__header {
@@ -114,15 +114,15 @@ h1.page-title {
 
 .comments__container {
   margin-top: 2rem;
-  border: 1px solid #ddd;
-  background-color: #fff;
+  border: 1px solid #333;
+  background-color: #fdfaea;
 }
 
 .comments__title {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #bbb;
   padding: 1rem;
   font-weight: 600;
-  background-color: #ccc;
+  background-color: #eae4cb;
 }
 
 .comments__comment {
